@@ -1,3 +1,17 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jun 20 21:23:06 GMT 2023","Tue Jun 20 21:23:06 GMT 2023","41","tests.unit","test_cdk_allure_stack","","","","test_sns_topic_created",""
-"broken","Tue Jun 20 21:23:05 GMT 2023","Tue Jun 20 21:23:06 GMT 2023","105","tests.unit","test_cdk_allure_stack","","","","test_sqs_queue_created",""
+"passed","Tue Jun 20 21:50:34 GMT 2023","Tue Jun 20 21:50:34 GMT 2023","30","tests.unit","test_cdk_allure_stack","","","","test_sns_topic_created","
+    Stack:
+        CdkAllureStack
+    Item:
+        SNSトピック数の確認
+    Expect:
+        1個だけ存在すること
+    "
+"broken","Tue Jun 20 21:50:34 GMT 2023","Tue Jun 20 21:50:34 GMT 2023","76","tests.unit","test_cdk_allure_stack","","","","test_sqs_queue_created","
+    Stack:
+        CdkAllureStack
+    Item:
+        SQSの可視性タイムアウトの確認
+    Expect:
+        300秒であること
+    "
