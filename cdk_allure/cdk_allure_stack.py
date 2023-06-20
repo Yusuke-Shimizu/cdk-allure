@@ -16,7 +16,7 @@ class CdkAllureStack(Stack):
 
         queue = sqs.Queue(
             self, "CdkAllureQueue",
-            visibility_timeout=Duration.seconds(300),
+            visibility_timeout=Duration.seconds(100),
         )
 
         topic = sns.Topic(
