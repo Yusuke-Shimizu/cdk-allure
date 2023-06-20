@@ -1,5 +1,11 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Tue Jun 20 21:52:43 GMT 2023","Tue Jun 20 21:52:43 GMT 2023","74","tests.unit","test_cdk_allure_stack","","","","test_sqs_queue_created","
+"passed","Tue Jun 20 21:56:24 GMT 2023","Tue Jun 20 21:56:24 GMT 2023","0","tests.integration","test_integration","","","","test_true","
+    Item:
+        テスト成功することの確認
+    Expect:
+        成功であること
+    "
+"broken","Tue Jun 20 21:56:24 GMT 2023","Tue Jun 20 21:56:24 GMT 2023","77","tests.unit","test_cdk_allure_stack","","","","test_sqs_queue_created","
     Stack:
         CdkAllureStack
     Item:
@@ -7,17 +13,17 @@
     Expect:
         300秒であること
     "
-"passed","Tue Jun 20 21:52:43 GMT 2023","Tue Jun 20 21:52:43 GMT 2023","28","tests.unit","test_cdk_allure_stack","","","","test_sns_topic_created","
+"failed","Tue Jun 20 21:56:24 GMT 2023","Tue Jun 20 21:56:24 GMT 2023","0","tests.integration","test_integration","","","","test_fail","
+    Item:
+        テスト失敗することの確認
+    Expect:
+        成功であること
+    "
+"passed","Tue Jun 20 21:56:24 GMT 2023","Tue Jun 20 21:56:24 GMT 2023","29","tests.unit","test_cdk_allure_stack","","","","test_sns_topic_created","
     Stack:
         CdkAllureStack
     Item:
         SNSトピック数の確認
     Expect:
         1個だけ存在すること
-    "
-"passed","Tue Jun 20 21:52:43 GMT 2023","Tue Jun 20 21:52:43 GMT 2023","0","tests.integration","test_integration","","","","test_true","
-    Item:
-        テスト成功することの確認
-    Expect:
-        成功であること
     "
