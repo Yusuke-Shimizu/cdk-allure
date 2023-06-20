@@ -28,6 +28,7 @@ jobs:
       run: |
         source .env/bin/activate
         pytest --alluredir=allure-results tests/
+      continue-on-error: true
 
     - name: Get Allure history
       uses: actions/checkout@v2
